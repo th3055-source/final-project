@@ -3,7 +3,9 @@ import pandas as pd
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
+from theme import apply_theme
 
+apply_theme()
 st.title("⚙️ Hyperparameter Tuning")
 
 st.write("""
